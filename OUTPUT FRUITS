@@ -1,0 +1,48 @@
+Please enter your name : Laila
+Please enter your state : Selangor
+Please enter your gender : Female
+Please enter your age : 20
+
+Welcome to the Green Eagle Seed Application,Laila
+
+* * * * * * * * * * * *
+The price for Apple seed is RM60 for 200g and RM110 for 500g.
+The price for Premium Apple Seed is RM70 for 200g and RM120 for 500g. 
+
+The price for Strawberry seed is RM80 for 200g and RM150 for 500g.
+The price for Premium Strawberry Seed is RM90 for 200g and RM160 for 500g. 
+
+The price for Grape seed is RM50 for 200g and RM100 for 500g.
+The price for Premium Grape Seed is RM60 for 200g and RM110 for 500g. 
+
+The price for Orange seed is RM45 for 200g and RM90 for 500g.
+The price for Premium Orange Seed is RM55 for 200g and RM100 for 500g. 
+* * * * * * * * * * * *
+
+Please enter the type of seed you want to buy : Apple
+Choose either 200g or 500g : 200
+Enter the price of seed you want to buy : RM60
+How many bag of seed you want to buy ? : 3
+* * * * * * * * 
+Please enter the second type of seed you want to buy : Orange
+Choose either 200g or 500g : 500
+Enter the price of seed you want to buy : RM90
+How many bag of seed you want to buy ? : 3
+The total price of your products : RM450
+
+Are you are member ? : No
+Do you want to be a member ? : Yes
+Enter your name : Laila
+You have to pay RM50 per year to continue being a member
+
+You will get a RM5 off voucher for next purchase for minimum spending RM100. 
+If you are spending RM300 and above, you will get a RM10 off for next purchase , a free tool and free delivery.
+
+You can pay using online banking and cash on delivery.
+Please type 'A' for online banking and 'B' for cash on delivery.
+Please choose your paying method : A
+
+You get RM112 off.You have to pay RM5 for delivery cost.
+
+The final amount of your products' price : RM 393
+You get a RM5 off voucher !
