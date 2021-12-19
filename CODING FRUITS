@@ -1,0 +1,147 @@
+package taskOne;
+import java.util.Scanner;
+
+public class Fruits {
+
+	public static void main(String[] args)  {
+		// TODO Auto-generated method stub
+		String name;
+		String address;
+		String gender;
+		int age;
+		String fruits;
+		int weight, weight2;
+		int amount, amount2;
+		int price1 , price2;
+		int finalprice, finalprice2; 
+		int total;
+		String member;
+		int finaltotal;
+		int discountreceived;
+		int delivery;
+		String method;
+		
+		Scanner scan = new Scanner (System.in);
+	
+		System.out.print("Please enter your name : ");
+		name = scan.next();
+		
+		System.out.print("Please enter your state : ");
+		address = scan.next();
+		
+		System.out.print("Please enter your gender : ");
+		gender = scan.next();
+		
+		System.out.print("Please enter your age : ");
+		age = scan.nextInt();
+		
+		System.out.println();
+		
+		System.out.print("Welcome to the Green Eagle Seed Application," + name );
+		
+		System.out.println();
+		System.out.println();
+		
+		System.out.println("* * * * * * * * * * * *");
+		
+		System.out.println("The price for Apple seed is RM60 for 200g and RM110 for 500g.");
+		System.out.println("The price for Premium Apple Seed is RM70 for 200g and RM120 for 500g. ");
+		System.out.println();
+		System.out.println("The price for Strawberry seed is RM80 for 200g and RM150 for 500g.");
+		System.out.println("The price for Premium Strawberry Seed is RM90 for 200g and RM160 for 500g. ");
+		System.out.println();
+		System.out.println("The price for Grape seed is RM50 for 200g and RM100 for 500g.");
+		System.out.println("The price for Premium Grape Seed is RM60 for 200g and RM110 for 500g. ");
+		System.out.println();
+		System.out.println("The price for Orange seed is RM45 for 200g and RM90 for 500g.");
+		System.out.println("The price for Premium Orange Seed is RM55 for 200g and RM100 for 500g. ");
+		
+		System.out.println("* * * * * * * * * * * *");
+		
+		System.out.println();
+		
+		System.out.print("Please enter the type of seed you want to buy : ");
+		fruits = scan.next();
+			
+		System.out.print("Choose either 200g or 500g : " );
+		weight = scan.nextInt();
+		
+		System.out.print("Enter the price of seed you want to buy : RM");
+		price1 = scan.nextInt();
+		
+		System.out.print("How many bag of seed you want to buy ? : ");
+		amount = scan.nextInt();
+		
+		finalprice = price1 * amount;
+		
+		System.out.println("* * * * * * * * ");
+		
+		System.out.print("Please enter the second type of seed you want to buy : ");
+		fruits = scan.next();
+	
+		System.out.print("Choose either 200g or 500g : ");
+		weight2 = scan.nextInt();
+		
+		System.out.print("Enter the price of seed you want to buy : RM");
+		price2 = scan.nextInt();
+	
+		System.out.print("How many bag of seed you want to buy ? : ");
+		amount2 = scan.nextInt();
+		
+		finalprice2 = price2 * amount;
+		
+		total = finalprice + finalprice2;
+		
+		System.out.print("The total price of your products : RM" + total);
+		
+		System.out.println();
+		System.out.println();
+		
+		System.out.print("Are you are member ? : ");
+		member = scan.next();
+		
+		System.out.print("Do you want to be a member ? : ");
+		member = scan.next();
+		
+		System.out.print("Enter your name : ");
+		name = scan.next();
+		
+		System.out.print("You have to pay RM50 per year to continue being a member");
+		
+		System.out.println();
+		System.out.println();
+		
+		System.out.print("You will get a RM5 off voucher for next purchase for minimum spending RM100. \nIf you are spending RM300 and above, you will get a RM10 off for next purchase , a free tool and free delivery.");
+		
+		System.out.println();
+		System.out.println();
+		
+		System.out.println("You can pay using online banking and cash on delivery.");
+		System.out.println("Please type 'A' for online banking and 'B' for cash on delivery.");
+		System.out.print("Please choose your paying method : ");
+		method = scan.next();
+		
+		discountreceived = (total * 25) / 100;
+		
+		System.out.println();
+		
+		System.out.print("You get RM" + discountreceived + " off." );
+		
+		System.out.print("You have to pay RM5 for delivery cost.");
+		
+		System.out.println();
+		System.out.println();
+		
+		finaltotal = total - discountreceived + 50 ;
+		
+		delivery = finaltotal +5;
+		
+		System.out.println("The final amount of your products' price : RM " + delivery);
+		
+		System.out.print("You get a RM5 off voucher !");
+		
+		scan.close();
+
+	}
+
+}
