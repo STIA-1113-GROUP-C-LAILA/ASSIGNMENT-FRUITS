@@ -138,7 +138,7 @@ public class Fruits {
 		
 		System.out.println("The final amount of your products' price : RM " + delivery);
 		
-		System.out.print("You get a RM5 off voucher !");
+		System.out.print("You get a RM10 off voucher ! A free tool and free delivery !");
 		
 		scan.close();
 
